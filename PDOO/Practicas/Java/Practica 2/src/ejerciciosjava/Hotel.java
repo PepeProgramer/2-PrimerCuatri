@@ -10,6 +10,8 @@ public class Hotel {
     private int estrellas;
     private Director director;
     private ArrayList<Reserva> reservas;
+    private ArrayList<Empleado> empleados;
+    private ArrayList<Habitacion> habitaciones;
 
     public Hotel(String nombre, String ciudad, int estrellas) {
         this.nombre = nombre;
@@ -17,6 +19,8 @@ public class Hotel {
         this.estrellas = estrellas;
         this.director = null;
         this.reservas = new ArrayList<>();
+        this.empleados = new ArrayList<>();
+        this.habitaciones = new ArrayList<>();
         NUM_HOTELES++;
     }
 
@@ -50,5 +54,27 @@ public class Hotel {
             reservas[i] = this.reservas.get(i);
         }*/
         return this.reservas;
+    }
+
+    public boolean addEmpleado(Empleado empleado) {
+        this.empleados.add(empleado);
+        empleado.addTrabajo(this);
+        return true;
+    }
+
+    public ArrayList<Empleado> getEmpleados() {
+        return this.empleados;
+    }
+    
+    public void addHabitacion(int numero, int capacidad){
+        this.habitaciones.add(new Habitacion(numero, capacidad));
+    }
+    
+    public int bucarHabitacionCapacidad(int capacidad){
+        for(Habitacion h: this.habitaciones){
+            if(h.getCapacidad() == capacidad)
+                return h.getNumero();
+        }
+        return 0;
     }
 }

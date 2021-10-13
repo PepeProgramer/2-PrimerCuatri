@@ -31,6 +31,16 @@ public class EjerciciosJava {
         for(Hotel hotel : director.getHoteles()){
             System.out.println("Nombre: " + hotel.getNombre());
         }
+        
+        Empleado emp = new Empleado("Juan");
+        h.addEmpleado(emp);
+        
+        //System.out.println("El hotel tiene " + h.getEmpleados().size() + " empleados");
+        
+        h.addHabitacion(101, 2);
+        h.addHabitacion(102,4);
+        
+        System.out.println("La primera habitacion con 4 huéspedes es la " + h.bucarHabitacionCapacidad(2));
        
     }
         
