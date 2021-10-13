@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ProdConsumidor.dir/LIFO.cpp.o CMakeFiles/ProdConsumidor.dir/FIFO.cpp.o CMakeFiles/ProdConsumidor.dir/lifo_varios.cpp.o -o ProdConsumidor 

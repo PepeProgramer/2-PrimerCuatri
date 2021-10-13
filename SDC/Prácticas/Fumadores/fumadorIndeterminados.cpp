@@ -11,13 +11,14 @@ using namespace scd;
 
 // numero de fumadores
 
-const int num_fumadores = 3;
-Semaphore v[3] = {0, 0, 0}, mostrador_vacio = 1;
+//int num_fumadores = 0;
+Semaphore mostrador_vacio = 1;
+vector<Semaphore> v;
 //-------------------------------------------------------------------------
 // Función que simula la acción de producir un ingrediente, como un retardo
 // aleatorio de la hebra (devuelve número de ingrediente producido)
 
-int producir_ingrediente() {
+int producir_ingrediente(const int num_fumadores) {
     // calcular milisegundos aleatorios de duración de la acción de fumar)
     chrono::milliseconds duracion_produ(aleatorio<10, 100>());
 
@@ -27,7 +28,7 @@ int producir_ingrediente() {
     // espera bloqueada un tiempo igual a ''duracion_produ' milisegundos
     this_thread::sleep_for(duracion_produ);
 
-    const int num_ingrediente = aleatorio<0, num_fumadores - 1>();
+     const int num_ingrediente = aleatorio<0, 3 - 1>();
 
     // informa de que ha terminado de producir
     cout << "Estanquero : termina de producir ingrediente " << num_ingrediente << endl;
@@ -38,9 +39,9 @@ int producir_ingrediente() {
 //----------------------------------------------------------------------
 // función que ejecuta la hebra del estanquero
 
-void funcion_hebra_estanquero() {
+void funcion_hebra_estanquero(const int num_fumadores) {
     while (true) {
-        int j = producir_ingrediente();
+        int j = producir_ingrediente(num_fumadores);
         mostrador_vacio.sem_wait();
         v[j].sem_signal();
     }
@@ -81,18 +82,23 @@ void funcion_hebra_fumador(int num_fumador) {
 
 //----------------------------------------------------------------------
 
-int main() {
+int main(int argc, char *argv[]) {
     // declarar hebras y ponerlas en marcha
     // ......
 
-    thread hebra_estanquero(funcion_hebra_estanquero),
-            hebra_fumadora_colilla(funcion_hebra_fumador, 0),
-            hebra_fumadora_tabaco(funcion_hebra_fumador, 1),
-            hebra_fumadora_(funcion_hebra_fumador, 2);
+    const int num_fumadores = atoi(argv[1]);
+    for (int i = 0; i < num_fumadores; ++i) {
+        v.push_back(Semaphore(0));
+    }
+    thread hebra_estanquero(funcion_hebra_estanquero, num_fumadores);
 
-    hebra_fumadora_colilla.join();
-    hebra_fumadora_tabaco.join();
-    hebra_fumadora_.join();
-    hebra_estanquero.join();
+    for (int i = 0; i < num_fumadores; ++i) {
+        thread hebra_fumadora(funcion_hebra_fumador,i);
+    }
+
+//    hebra_fumadora_colilla.join();
+//    hebra_fumadora_tabaco.join();
+//    hebra_fumadora_.join();
+//    hebra_estanquero.join();
 
 }

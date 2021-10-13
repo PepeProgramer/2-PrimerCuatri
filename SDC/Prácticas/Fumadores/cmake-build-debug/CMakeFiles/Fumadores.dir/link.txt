@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Fumadores.dir/main.cpp.o -o Fumadores 
