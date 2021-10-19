@@ -37,8 +37,13 @@ public class EjerciciosJava {
         
         //System.out.println("El hotel tiene " + h.getEmpleados().size() + " empleados");
         
-        h.addHabitacion(101, 2);
-        h.addHabitacion(102,4);
+        /*h.addHabitacion(101, 2);
+        h.addHabitacion(102,4);*/
+        
+        Habitacion hab = new Habitacion(101, 2);
+        Habitacion hab2 = new Habitacion(102, 4);
+        h.addHabitacion(hab);
+        h.addHabitacion(hab2);
         
         System.out.println("La primera habitacion con 4 huéspedes es la " + h.bucarHabitacionCapacidad(2));
        

@@ -10,6 +10,7 @@ package ejerciciosjava;
  */
 public class Habitacion {
     private int numero, capacidad;
+    private Hotel hotel;
 
     public Habitacion(int numero, int capacidad) {
         this.numero = numero;
@@ -23,6 +24,12 @@ public class Habitacion {
     public int getCapacidad() {
         return capacidad;
     }
+
+    public void setHotel(Hotel hotel) {
+        this.hotel = hotel;
+    }
+    
+    
     
     
 }

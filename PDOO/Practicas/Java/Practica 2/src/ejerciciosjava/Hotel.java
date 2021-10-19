@@ -66,8 +66,13 @@ public class Hotel {
         return this.empleados;
     }
     
-    public void addHabitacion(int numero, int capacidad){
+    /*public void addHabitacion(int numero, int capacidad){
         this.habitaciones.add(new Habitacion(numero, capacidad));
+    }*/
+    
+    public void addHabitacion(Habitacion habitacion){
+        this.habitaciones.add(habitacion);
+        habitacion.setHotel(this);
     }
     
     public int bucarHabitacionCapacidad(int capacidad){
