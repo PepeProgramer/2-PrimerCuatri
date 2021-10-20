@@ -45,7 +45,7 @@ public class EjerciciosJava {
         h.addHabitacion(hab);
         h.addHabitacion(hab2);
         
-        System.out.println("La primera habitacion con 4 huéspedes es la " + h.bucarHabitacionCapacidad(2));
+        System.out.println("La primera habitacion con 4 huéspedes es la " + h.bucarHabitacionCapacidad(4));
        
     }
         
