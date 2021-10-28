@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="189416e9-00f5-427d-b2d1-5f4d14862bed" name="Default Changelist" comment="shit">
-      <change beforePath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/EjerciciosJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/EjerciciosJava.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Empleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Habitacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Habitacion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_10_21_16_57_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_10_21_16_57__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
       <workItem from="1634749068439" duration="666000" />
       <workItem from="1634829285304" duration="599000" />
       <workItem from="1635186727878" duration="599000" />
+      <workItem from="1635430021971" duration="680000" />
     </task>
     <task id="LOCAL-00001" summary="pepe">
       <created>1634139819481</created>
