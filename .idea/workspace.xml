@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="189416e9-00f5-427d-b2d1-5f4d14862bed" name="Default Changelist" comment="shit">
+      <change beforePath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/EjerciciosJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/EjerciciosJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Empleado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Habitacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Habitacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/PDOO/Practicas/Java/Practica 2/build/classes/ejerciciosjava/Hotel.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zSRtYJQhIIF8FfAtDoOgnRCalk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="189416e9-00f5-427d-b2d1-5f4d14862bed" name="Default Changelist" comment="" />
+      <created>1634139718196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634139718196</updated>
+      <workItem from="1634139719838" duration="1170000" />
+      <workItem from="1634655429245" duration="68000" />
+      <workItem from="1634749068439" duration="666000" />
+      <workItem from="1634829285304" duration="599000" />
+      <workItem from="1635186727878" duration="599000" />
+    </task>
+    <task id="LOCAL-00001" summary="pepe">
+      <created>1634139819481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634139819481</updated>
+    </task>
+    <task id="LOCAL-00002" summary="juan">
+      <created>1634146615329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634146615329</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finish practica 3 sesionn 1">
+      <created>1634749092365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634749092365</updated>
+    </task>
+    <task id="LOCAL-00004" summary="shit">
+      <created>1634749128097</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634749128097</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pepe" />
+    <MESSAGE value="juan" />
+    <MESSAGE value="finish practica 3 sesionn 1" />
+    <MESSAGE value="shit" />
+    <option name="LAST_COMMIT_MESSAGE" value="shit" />
+  </component>
+</project>
